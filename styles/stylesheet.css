@@ -1,0 +1,23 @@
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20;
+}
+
+.movie-card {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.movie-card img {
+    width: 100%;
+}
+
+.movie-card h2 {
+    font-size: 18px;
+}
+
+.movie-card p {
+    margin: 0;
+}

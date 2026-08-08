@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="styles/stylesheet.css" > <!--Place this in the head so that it loads-->
     <title>Movie Search App</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
         <button id="searchButton">Search</button>
         <div id="results"></div>
     </div>
-    <div id="results"></div>
+    <div id="results"></div> <!--JavaScript will create HTML elements in the background to fill this because of id="results"-->
 
     <script src="js/script.js"></script> <!-- if placed at the top, the script will not work because the DOM elements 
                                             are not yet loaded when the script runs. Placing it at the bottom ensures 
